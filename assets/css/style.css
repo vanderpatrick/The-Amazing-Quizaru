@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Mochiy Pop P One, sans-serif;
+
 }
 
 /* desable all section that im not styling right now  */
@@ -13,6 +14,7 @@ body {
 }
 
 .home_screen,
+.quiz_box,
 .result_box {
     display: none;
 }
@@ -47,95 +49,3 @@ nav {
 
 /* game home screen section */
 
-.home_screen,
-.quiz_box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: 50px;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-        0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 60%;
-    background-color: aliceblue;
-    border-radius: 10px;
-    font-size: 1.5em;
-}
-
-.home_screen .home_title {
-    text-align: center;
-    padding: 20px 0;
-    font-weight: 500;
-    border-bottom: black solid 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-}
-
-.home_start {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.home_start .info {
-    font-size: 1.6rem;
-    border: 1px solid black;
-    padding: 10px 75px;
-    margin: 50px 0;
-    border-radius: 10px;
-}
-
-.home_start .info:hover {
-    background-color: #004085;
-    color: #fff;
-    cursor: pointer;
-}
-
-/* quiz section */
-
-.quiz_box .question {
-    border-bottom: 2px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    padding: 10px 35px;
-    pointer-events: none;
-}
-
-.quiz_box .option {
-    margin: 35px 35px;
-    border: 2px solid #0263ca;
-    border-radius: 10px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.quiz_box .option:hover {
-    background-color: #cce5ff;
-}
-
-.footer_quiz {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 35px;
-    border-top: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
-}
-
-.footer_quiz .total_que {
-    border-radius: 10px;
-    border: 1px solid black;
-    padding: 5px;
-    pointer-events: none;
-    background-color: #cce5ff;
-}
-
-.footer_quiz .next_btn {
-    border-radius: 10px;
-    padding: 5px 35px;
-    cursor: pointer;
-}
-
-.footer_quiz .next_btn:hover {
-    background-color: #cce5ff;
-}
