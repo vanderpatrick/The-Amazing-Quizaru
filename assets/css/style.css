@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mochiy Pop P One, sans-serif;
+
+}
+
+/* desable all section that im not styling right now  */
+body {
+    background-color: #007bff;
+}
+
+.home_screen,
+.quiz_box,
+.result_box {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0263ca;
+    font-size: 1.8rem;
+}
+
+.title_site a {
+    text-decoration: none;
+    color: black;
+}
+
+.title_site,
+.nav_links {
+    padding: 25px;
+}
+
+.nav_links span {
+    padding: 0 15px 3px 15px;
+    cursor: pointer;
+}
+
+.nav_links span:hover {
+    background-color: #cce5ff;
+    border-radius: 10px;
+    outline: #cce5ff;
+}
+
+/* game home screen section */
+
