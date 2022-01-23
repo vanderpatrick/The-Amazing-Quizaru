@@ -279,3 +279,27 @@ nav {
     background-color: #cce5ff;
 }
 
+
+/* footer section */
+
+footer {
+    background-color: #0263ca;
+}
+
+.footer_info {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+ .footer_link a {
+     color: black;
+     font-size: 1.8rem;
+}
+
