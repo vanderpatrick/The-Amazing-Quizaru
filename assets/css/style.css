@@ -23,7 +23,7 @@ nav {
 }
 
 .nav_links .nav_link a {
-    transition: ease 0,3s;
+    transition: ease 0, 3s;
     text-decoration: none;
 }
 
@@ -54,11 +54,7 @@ nav {
 .result_box,
 .help_box,
 .credits_box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: 50px;
-    transform: translate(-50%, -50%);
+    margin: 50px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 60%;
@@ -69,11 +65,12 @@ nav {
 
 .home_screen .home_title {
     text-align: center;
-    padding: 20px 0;
+    padding: 15px 0;
     font-weight: 500;
     border-bottom: black solid 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     border-radius: 10px;
+    pointer-events: none;
 }
 
 .home_start {
@@ -85,8 +82,8 @@ nav {
 .home_start .info {
     font-size: 1.6rem;
     border: 1px solid black;
-    padding: 10px 75px;
-    margin: 50px 0;
+    padding: 5px 75px;
+    margin: 45px 0;
     border-radius: 10px;
 }
 
@@ -198,13 +195,17 @@ nav {
     border-bottom: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding: 10px;
+    padding: 10px;
+    pointer-events: none;
 }
 
+.rules {
+    padding: 0 15px;
+    pointer-events: none;
+}
 
-
- .rules .rule {
-     margin: 25px 0;
+.rules .rule {
+    margin: 25px 0;
     padding: 10px 35px;
     border: 2px solid black;
     border-radius: 10px;
@@ -230,8 +231,7 @@ nav {
     cursor: pointer;
 }
 
-.help_box .buttons 
-.exit:hover,
+.help_box .buttons .exit:hover,
 .replay:hover {
     background-color: #cce5ff;
 }
@@ -244,11 +244,17 @@ nav {
     border-bottom: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        padding: 10px;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.credits {
+    padding: 0 15px;
+    pointer-events: none;
 }
 
 .credits .credit {
-    margin: 25px 0;
+    margin: 45px 0;
     padding: 10px 35px;
     border: 2px solid black;
     border-radius: 10px;
@@ -260,8 +266,7 @@ nav {
     padding: 15px 35px;
 }
 
-.credits_box .buttons
-.exit,
+.credits_box .buttons .exit,
 .replay {
     padding: 15px;
     border: 2px solid black;
@@ -269,8 +274,7 @@ nav {
     cursor: pointer;
 }
 
-.credits_box .buttons
-.exit:hover,
+.credits_box .buttons .exit:hover,
 .replay:hover {
     background-color: #cce5ff;
 }
