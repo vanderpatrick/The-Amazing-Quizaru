@@ -22,6 +22,11 @@ nav {
     font-size: 1.8rem;
 }
 
+.nav_links .nav_link a {
+    transition: ease 0,3s;
+    text-decoration: none;
+}
+
 .title_site a {
     text-decoration: none;
     color: black;
@@ -46,7 +51,8 @@ nav {
 /* game home screen section */
 .home_screen,
 .quiz_box,
-.result_box {
+.result_box,
+.help_box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,10 +96,6 @@ nav {
 }
 
 /* quiz section */
-.quiz_box,
-.home_screen {
-    opacity: 0;
-}
 
 .quiz_box .question {
     border-bottom: 2px solid black;
@@ -186,3 +188,50 @@ nav {
     background-color: #cce5ff;
     cursor: pointer;
 }
+
+
+/* help me section */
+
+.help_title {
+    text-align: center;
+    border-bottom: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+}
+
+
+
+ .rules .rule {
+     margin: 25px 0;
+    padding: 10px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.help_box .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+}
+
+.help_box .buttons .exit {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.help_box .buttons .replay {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.help_box .buttons 
+.exit:hover,
+.replay:hover {
+    background-color: #cce5ff;
+}
+   
