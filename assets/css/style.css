@@ -8,45 +8,74 @@
 
 }
 
-/* desable all section that im not styling right now  */
+
 body {
     background-color: #007bff;
 }
 
+/* nav section */
 
-
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #0263ca;
-    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 10px 10px;
 }
 
-.nav_links .nav_link a {
-    transition: ease 0, 3s;
+.brand-title {
+    font-size: 1.8rem;
+    margin: .5rem;
+}
+
+.brand-title a {
+    color: black;
     text-decoration: none;
 }
 
-.title_site a {
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 2rem;
+}
+
+.navbar-links li {
+    list-style: none;
+
+}
+
+.navbar-links li a {
     text-decoration: none;
     color: black;
+    padding: 1rem;
+    display: block;
 }
 
-.title_site,
-.nav_links {
-    padding: 25px;
-}
-
-.nav_links span {
-    padding: 0 15px 3px 15px;
-    cursor: pointer;
-}
-
-.nav_links span:hover {
-    background-color: #cce5ff;
+.navbar-links li:hover {
+    background-color: #328dee;
     border-radius: 10px;
-    outline: #cce5ff;
 }
+
+.toggle-button {
+    position: absolute;
+    top: 28px;
+    right: 5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
 
 /* game home screen section */
 .home_screen,
@@ -284,6 +313,7 @@ nav {
 
 footer {
     background-color: #0263ca;
+
 }
 
 .footer_info {
@@ -298,8 +328,124 @@ footer {
     padding-top: 15px;
 }
 
- .footer_link a {
-     color: black;
-     font-size: 1.8rem;
+.footer_link a {
+    color: black;
+    font-size: 1.8rem;
 }
 
+/* media queries */
+
+@media (max-width:540px) {
+
+    .home_screen,
+    .help_box,
+    .credits_box,
+    .quiz_box {
+        width: 90%;
+        margin: 88px auto;
+        font-size: 1.5rem;
+    }
+
+    .brand-title {
+        font-size: 1.4rem;
+    }
+
+    .toggle-button {
+        display: flex;
+        right: 3rem;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+        text-align: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+}
+
+@media (min-width:750px) {
+
+    .home_screen,
+    .help_box,
+    .credits_box,
+    .quiz_box {
+        width: 90%;
+        margin: 140px auto;
+        font-size: 1.5rem;
+    }
+    
+    .brand-title {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        height: 155px;
+    }
+}
+
+@media (min-width:800px) {
+
+    .home_screen,
+    .help_box,
+    .credits_box,
+    .quiz_box {
+        width: 90%;
+        margin: 220px auto;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:900px) {
+
+    .home_screen,
+    .help_box,
+    .credits_box,
+    .quiz_box {
+        width: 90%;
+        margin: 340px auto;
+        font-size: 1.5rem;
+    }
+
+    footer {
+        height: 120px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .home_screen,
+    .quiz_box,
+    .result_box,
+    .help_box,
+    .credits_box {
+        margin: 50px auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 60%;
+        background-color: aliceblue;
+        border-radius: 10px;
+        font-size: 1.5em;
+    }
+}
