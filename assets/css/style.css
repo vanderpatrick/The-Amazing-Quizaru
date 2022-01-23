@@ -52,7 +52,8 @@ nav {
 .home_screen,
 .quiz_box,
 .result_box,
-.help_box {
+.help_box,
+.credits_box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -234,4 +235,43 @@ nav {
 .replay:hover {
     background-color: #cce5ff;
 }
-   
+
+
+/* credits section */
+
+.credits_title {
+    text-align: center;
+    border-bottom: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 10px;
+}
+
+.credits .credit {
+    margin: 25px 0;
+    padding: 10px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.credits_box .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px;
+}
+
+.credits_box .buttons
+.exit,
+.replay {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.credits_box .buttons
+.exit:hover,
+.replay:hover {
+    background-color: #cce5ff;
+}
+
