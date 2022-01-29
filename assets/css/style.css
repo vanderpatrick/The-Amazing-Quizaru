@@ -151,7 +151,7 @@ body {
     background-color: red;
 }
 
-.quiz_box .option.remove {
+.quiz_box .option.remove{
     pointer-events: none;
 }
 
@@ -185,6 +185,7 @@ body {
 }
 
 .footer_quiz .next_btn {
+    display: none;
     border-radius: 10px;
     padding: 5px 35px;
     cursor: pointer;

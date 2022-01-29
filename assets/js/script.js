@@ -21,28 +21,28 @@ function nextQuestion() {
             callGame(que_count)
             questionCounter(que_counter)
         } else {
-            console.log('done')
+            window.location.href = 'https://5555-vanderpatrick-theamazing-a78pzco9zx6.ws-eu29.gitpod.io/result.html'
         }
-        
+
     }
 }
 // Funtion  to call questions and options in the quiz.
 function callGame(index) {
     const quest_text = document.querySelector('.question');
     const option_text = document.querySelector('.options');
-
+    next_btn.style.display = 'none';
     let quest_content = '<span>' + questions[index].numb + '.' + questions[index].question + '</span>';
     let option_content = '<div class="option">' + '<span>' + questions[index].options[0] + '</span>' + '</div>' +
-                         '<div class="option">' + '<span>' + questions[index].options[1] + '</span>' + '</div>' +
-                         '<div class="option">' + '<span>' + questions[index].options[2] + '</span>' + '</div>' +
-                         '<div class="option">' + '<span>' + questions[index].options[3] + '</span>' + '</div>' 
+        '<div class="option">' + '<span>' + questions[index].options[1] + '</span>' + '</div>' +
+        '<div class="option">' + '<span>' + questions[index].options[2] + '</span>' + '</div>' +
+        '<div class="option">' + '<span>' + questions[index].options[3] + '</span>' + '</div>'
     option_text.innerHTML = option_content
     quest_text.innerHTML = quest_content
     const option = option_list.querySelectorAll('.option')
-    for(i = 0; i < option.length; i++) {
+    for (i = 0; i < option.length; i++) {
         option[i].setAttribute('onclick', 'optionSelected(this)')
     }
-    
+
 }
 // Funtion to call Question counter
 
@@ -57,18 +57,28 @@ function optionSelected(answer) {
     let questionAnswer = answer.textContent;
     let correctAnswer = questions[que_count].answer;
     let allOptions = option_list.children.length
-    if(questionAnswer == correctAnswer){
+    if (questionAnswer == correctAnswer) {
         answer.classList.add("correct")
 
         console.log('correct')
-    }else{
+    } else {
         answer.classList.add('incorrect')
         console.log('incorrect')
+
+        //shows correct answer if incorrectly selected
+        for (i = 0; i < allOptions; i++) {
+            if(option_list.children[i].textContent == correctAnswer){
+                option_list.children[i].setAttribute('class', 'option correct')
+            }else{
+                option_list.children[i].setAttribute('class', 'option incorrect')
+            }
+        }
     }
-// When option is selected disable other ones 
-    for(i = 0; i < allOptions; i++){
+    // When option is selected disable other ones 
+    for (i = 0; i < allOptions; i++) {
         option_list.children[i].classList.add('remove');
     }
+    next_btn.style.display = 'block';
 }
 callGame(0)
 nextQuestion(0)
