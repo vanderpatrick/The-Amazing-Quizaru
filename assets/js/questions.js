@@ -23,7 +23,7 @@ let questions = [{
     {
         numb: 3,
         question: "Which of the options bellow is a hidden skate rule",
-        answer: "Wait your goddam tur",
+        answer: "Wait your goddam turn",
         options: [
             "Never eat in the park",
             "Dont smoke in the park",

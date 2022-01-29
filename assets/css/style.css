@@ -132,6 +132,28 @@ body {
     pointer-events: none;
 }
 
+ .quiz_box .option.correct {
+    margin: 35px 35px;
+    border: 2px solid #0263ca;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: green;
+    pointer-events: none;
+}
+
+.quiz_box .option.incorrect {
+    margin: 35px 35px;
+    border: 2px solid #0263ca;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: red;
+}
+
+.quiz_box .option.remove {
+    pointer-events: none;
+}
 
 .quiz_box .option {
     margin: 35px 35px;
