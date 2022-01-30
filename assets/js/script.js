@@ -1,15 +1,18 @@
 //all loose variables
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-const option_list = document.querySelector('.options')
-let next_btn = document.querySelector('.next_btn')
-let que_count = 0
-let que_counter = 1
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+const option_list = document.querySelector('.options');
+const gameStart = document.querySelector('.game_start')
+const howToPlay = document.querySelector('.how_to_play')
+const credits = document.querySelector('.credits')
+let next_btn = document.querySelector('.next_btn');
+let que_count = 0;
+let que_counter = 1;
+let userScore = 0;
 
-// calling functions
 // Function to call The burger menu.
 toggleButton.addEventListener("click", () => {
-    navbarLinks.classList.toggle('active')
+    navbarLinks.classList.toggle('active');
 })
 //funtion to call Next question
 
@@ -21,7 +24,7 @@ function nextQuestion() {
             callGame(que_count)
             questionCounter(que_counter)
         } else {
-            window.location.href = 'https://5555-vanderpatrick-theamazing-a78pzco9zx6.ws-eu29.gitpod.io/result.html'
+            window.location.href = 'result.html'
         }
 
     }
@@ -58,8 +61,9 @@ function optionSelected(answer) {
     let correctAnswer = questions[que_count].answer;
     let allOptions = option_list.children.length
     if (questionAnswer == correctAnswer) {
+        userScore += 1;
+        console.log(userScore)
         answer.classList.add("correct")
-
         console.log('correct')
     } else {
         answer.classList.add('incorrect')
@@ -67,9 +71,9 @@ function optionSelected(answer) {
 
         //shows correct answer if incorrectly selected
         for (i = 0; i < allOptions; i++) {
-            if(option_list.children[i].textContent == correctAnswer){
+            if (option_list.children[i].textContent == correctAnswer) {
                 option_list.children[i].setAttribute('class', 'option correct')
-            }else{
+            } else {
                 option_list.children[i].setAttribute('class', 'option incorrect')
             }
         }
@@ -80,5 +84,34 @@ function optionSelected(answer) {
     }
     next_btn.style.display = 'block';
 }
-callGame(0)
-nextQuestion(0)
+// Function to count answers
+function showResult() {
+    const scoreText = document.querySelector('.score')
+    if (userScore > 3) {
+        let scoreTag = '<span>' + userScore + '/' + questions.length + '</span>';
+        scoreText.innerHTML = scoreTag;
+    }
+}
+
+//Functions to start game, help menu,credits menu,exit and restart
+function quizStart(){
+    window.location.href = 'quiz_box.html'
+}
+function howTo(){
+    window.location.href = 'help.html'
+}
+function credit(){
+    window.location.href = 'credits.html'
+}
+
+function restartGame() {
+    window.location.href = 'quiz_box.html'
+}
+
+function exitGame() {
+    window.location.href = 'index.html' 
+}
+
+
+callGame(0);
+nextQuestion(0);
