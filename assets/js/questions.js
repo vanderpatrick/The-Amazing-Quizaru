@@ -53,4 +53,62 @@ let questions = [{
             "Sean Malto",
             "Danny Way"
         ]
-    }]
+    },
+    {
+        numb: 6,
+        question: "Who was the first person to successfully ollie over Wallenberg?",
+        answer: "Mark 'The Gonz' Gonzales",
+        options: [
+            "Mark 'The Gonz' Gonzales",
+            "Steve caballero",
+            "Tony Alva",
+            "Jake Anderson"
+        ]
+    },
+    {
+        numb: 7,
+        question: "Which of these skateboarders was the first person to ollie the El Toro High School stairs?",
+        answer: "Don Nguyen",
+        options: [
+            "Dave Baschinsky",
+            "Don Nguyen",
+            "Ali Boulala",
+            "Ryan Decenzo"
+        ]
+    },
+    {
+        numb: 8,
+        question: "Which of these is not a form of inline skating?",
+        answer: "Cross country",
+        options: [
+            "Aggressive ",
+            "Speed",
+            "Cross country",
+            "Recreational "
+        ]
+    },
+    {
+        numb: 9,
+        question: "Which Skater made the Casper?",
+        answer: "Rodney Mullen",
+        options: [
+            "Tony Hawk",
+            "Rodney Mullen",
+            "Mike McGill",
+            "Alan Gelfand"
+        ]
+    },
+    {
+        numb: 10,
+        question: "Which of these skaters was not in Tony Hawks pro skating 3?",
+        answer: "Bob Burnquist",
+        options: [
+            "Rodney Mullen",
+            "Tony Hawk",
+            "Bob Burnquist",
+            "Chad Muska "
+        ]
+    },
+]
+    
+    

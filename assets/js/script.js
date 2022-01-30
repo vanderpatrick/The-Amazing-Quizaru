@@ -51,7 +51,7 @@ function callGame(index) {
 
 function questionCounter(index) {
     const question_counter = document.querySelector('.total_que');
-    let question_counter_content = '<span>' + index + '/' + '5' + '</span>'
+    let question_counter_content = '<span>' + index + '/' + '10' + '</span>'
     question_counter.innerHTML = question_counter_content
 }
 
