@@ -62,6 +62,7 @@ function optionSelected(answer) {
     let allOptions = option_list.children.length
     if (questionAnswer == correctAnswer) {
         userScore += 1;
+        sessionStorage.setItem('userScore', userScore);
         console.log(userScore)
         answer.classList.add("correct")
         console.log('correct')
@@ -87,10 +88,14 @@ function optionSelected(answer) {
 // Function to count answers
 function showResult() {
     const scoreText = document.querySelector('.score')
-    if (userScore > 3) {
+    let userScore = sessionStorage.getItem('userScore');
+
+    if (userScore >= 1 && scoreText !== null) {
         let scoreTag = '<span>' + userScore + '/' + questions.length + '</span>';
         scoreText.innerHTML = scoreTag;
+        
     }
+    console.log(userScore)
 }
 
 //Functions to start game, help menu,credits menu,exit and restart
@@ -113,5 +118,7 @@ function exitGame() {
 }
 
 
+
+showResult()
 callGame(0);
 nextQuestion(0);
