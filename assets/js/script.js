@@ -118,7 +118,6 @@ function exitGame() {
 }
 
 
-
 showResult()
 callGame(0);
 nextQuestion(0);
