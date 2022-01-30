@@ -366,11 +366,11 @@ footer {
     .quiz_box {
         width: 90%;
         margin: 88px auto;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     .brand-title a {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
 
     .toggle-button {
@@ -419,15 +419,18 @@ footer {
     .quiz_box {
         width: 90%;
         margin: 140px auto;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     
     .brand-title {
-        font-size: 1.4rem;
+        font-size: 0.2rem;
     }
 
     footer {
         height: 155px;
+    }
+    a {
+        font-size: 1.4rem;
     }
 }
 
@@ -440,6 +443,9 @@ footer {
         width: 90%;
         margin: 220px auto;
         font-size: 1.5rem;
+    }
+    a {
+        font-size: 1.4rem;
     }
 }
 
@@ -473,5 +479,8 @@ footer {
         background-color: aliceblue;
         border-radius: 10px;
         font-size: 1.5em;
+    }
+    footer {
+        height: 120px;
     }
 }
