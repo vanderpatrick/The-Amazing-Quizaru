@@ -39,7 +39,7 @@ function callGame(index) {
     option_text.innerHTML = option_content;
     quest_text.innerHTML = quest_content;
     const option = option_list.querySelectorAll('.option');
-    for (i = 0; i < option.length; i++) {
+    for (let i = 0; i < option.length; i++) {
         option[i].setAttribute('onclick', 'optionSelected(this)');
     }
 
@@ -60,15 +60,12 @@ function optionSelected(answer) {
     if (questionAnswer == correctAnswer) {
         userScore += 1;
         sessionStorage.setItem('userScore', userScore);
-        console.log(userScore);
         answer.classList.add("correct");
-        console.log('correct');
     } else {
         answer.classList.add('incorrect');
-        console.log('incorrect');
 
         //shows correct answer if incorrectly selected
-        for (i = 0; i < allOptions; i++) {
+        for (let i = 0; i < allOptions; i++) {
             if (option_list.children[i].textContent == correctAnswer) {
                 option_list.children[i].setAttribute('class', 'option correct');
             } else {
@@ -77,7 +74,7 @@ function optionSelected(answer) {
         }
     }
     // When option is selected disable other ones 
-    for (i = 0; i < allOptions; i++) {
+    for (let i = 0; i < allOptions; i++) {
         option_list.children[i].classList.add('remove');
     }
     next_btn.style.display = 'block';
@@ -92,7 +89,6 @@ function showResult() {
         scoreText.innerHTML = scoreTag;
         
     }
-    console.log(userScore);
 }
 
 //Functions to start game, help menu,credits menu,exit and restart
