@@ -5,7 +5,7 @@
 ### [Check The Amazing Quizaru](https://vanderpatrick.github.io/The-Amazing-Quizaru/)
 ### [Check my Repository](https://github.com/vanderpatrick/The-Amazing-Quizaru/)
 
-![Insert image here]()
+![Responsive image from the project](/assets/images/responsive.png)
 
 # The Amazing Quizaru :
 
@@ -80,7 +80,7 @@ The Features were designed to distinguish each area with ease so the user can ex
 - Quiz result
     - The result section shows the amount of correct answers from total questions.
     - the user has the option to restart the game or exit the game.
-    
+
 ![Footer image](/assets/images/quizResult.png)
 
 

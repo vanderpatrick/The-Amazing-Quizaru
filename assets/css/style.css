@@ -360,12 +360,16 @@ footer {
 
 @media (max-width:540px) {
 
+    .home_start .info {
+        font-size: 1rem;
+    }
+
     .home_screen,
     .help_box,
     .credits_box,
     .quiz_box {
         width: 90%;
-        margin: 107px auto;
+        margin: 110px auto;
         font-size: 1.1rem;
     }
 
