@@ -12,14 +12,14 @@
 ### The Amazing Quizaru was developed by me as my second Full Stack Web Development project with Code Institute.
 
 # Reason :
-The Amazing Quizaro was developed with the porpuse of giving more information about the skate universe in a funny and interactive way. By playing this quiz you gonna learn some usefull information about some skate legends and also some hidden rules to make your skateboarding experience much better.
+The Amazing Quizaro was developed to give more information about the skate universe funny and interactively. By playing this quiz you gonna learn some useful information about some skate legends and also some hidden rules to make your skateboarding experience much better.
 
 # The user Experience (UX)
 
 ##  Audience : 
 
 - People who to learn more about skating.
-- Skaters that want to test ther knowladge about skate facts.
+- Skaters that want to test their knowledge about skate facts.
 - skaters who wish to spend some time in a fast and funny game.
 
 ## User Report : 
@@ -27,20 +27,20 @@ The Amazing Quizaro was developed with the porpuse of giving more information ab
 - first experience
 
     1. As a user I would like instructions to know how to play.
-    2. As a user I would like easy way to navigate in the website.
-    3. As a user I would like to imidiatly play the game.
+    2. As a user I would like an easy way to navigate the website.
+    3. As a user I would like to immediately play the game.
 
 - Second experience
 
-    1. I would want to re-test my knowladge.
-    2. I would want to all answers correct.
+    1. I would want to re-test my knowledge.
+    2. I would want all answers correct.
     3. I would want to who made the game.
 
 - As a developer    
     
     1. I want to make the interactive.
-    2. I want to make the site have a direct image about what you can do. 
-    3. I want to give a good time with interessting questions about the skate universe that you probaly dont know.
+    2. I want to make the site have a direct image of what you can do. 
+    3. I want to give a good time with interesting questions about the skate universe that you probably don't know.
 
 
 # Features :
@@ -48,7 +48,7 @@ The Amazing Quizaro was developed with the porpuse of giving more information ab
 The Features were designed to distinguish each area with ease so the user can explore the site instinctively.
 
 - Navigation bar
-    - The navigation bar is featured on all HTML pages being responsive for big, medium and small devices.
+    - The navigation bar is featured on all HTML pages being responsive for big, medium, and small devices.
     - It consists of 3 clickable links that redirect in the same tab to the other pages. 
     - The Header act as a link to the home page.
     - as it shrinks the navigations links (Home, How to, Credits) turn into a burger-styled menu.
@@ -56,29 +56,29 @@ The Features were designed to distinguish each area with ease so the user can ex
  ![navigation bar image](/assets/images/NAVBAR.png)
 
 - Landing page
-    - The homepage consists 3 interactable options for the player, he(she) can start the game, see the credits, or see instructions.
-    - it is easy to look and intuitive to chose what to do.
+    - The homepage consists of 3 interactable options for the player, he(she) can start the game, see the credits, or see instructions.
+    - it is easy to look at and intuitive to chose what to do.
 
 ![landing page image](/assets/images/homeScreen.png)
 
 - Footer
-    - Simple footer not much to see, just enough social media links if the user wants to check my other work.
+    - Simple footer, not much to see, just enough social media links if the user wants to check my other work.
     - It's composed of three sections to quickly give info about the school and its goals.
 
 ![info content image](/assets/images/FOOTER.png)
 
 - Quiz section
     - The quiz section gives the player 10 questions with 4 options.
-    - The user cant procede until one of the options is chosen.
-    - After the user clicks on a option if right it turns to green and the next button shows up.
-    - If wrong all wrong options turns to red and the correct one to green.
-    - Then the next button shows to the user so he(she) can move foward.
+    - The user cannot proceed until one of the options is chosen.
+    - After the user clicks on an option if right it turns to green and the next button shows up.
+    - If wrong all wrong options turn to red and the correct one to green.
+    - Then the next button shows to the user so he(she) can move forward.
 
 ![feedback info image](/assets/images/quizOptions.png)
 ![Quiz when wrong question is clicked](/assets/images/quiz-options.png)
 
 - Quiz result
-    - The result section shows the amount of correct answers from total questions.
+    - The result section shows the number of correct answers from total questions.
     - the user has the option to restart the game or exit the game.
 
 ![Footer image](/assets/images/quizResult.png)
@@ -87,15 +87,15 @@ The Features were designed to distinguish each area with ease so the user can ex
 
 # Testing :
 
-This is a HTML CSS and JS web site, my main consaern in the project was the logic apllyed to the quiz.
+This is an HTML CSS and JS website, my main concern in the project was the logic applied to the quiz.
 
- - The project was built with a desktop approach, Because it was easier for me to create the content in the page.
+ - The project was built with a desktop approach Because it was easier for me to create the content on the page.
 
- - It was hard to fix the Js bugs in all HTML pages. But in the end no relevants errors nor bugs.
+ - It was hard to fix the Js bugs in all HTML pages. But in the end no relevant errors or bugs.
 
  # Test Validators :
 
-## Here you have acces to all HTML validators from all 5 pages:
+## Here you have access to all HTML validators from all 5 pages:
  
  ## [HTML Validator - Index](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Findex.html)
  ## [HTML Validator - Quiz_box](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fquiz_box.html#textarea)
@@ -103,7 +103,7 @@ This is a HTML CSS and JS web site, my main consaern in the project was the logi
  ## [HTML Validator - Credits](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fcredits.html)
  ## [HTML Validator - Result](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fcredits.html#textarea)
 
-All Html pages have been tested and passed with success and irellevent warnings.
+All Html pages have been tested and passed with success and irrelevant warnings.
 
  ## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -136,19 +136,18 @@ The CSS file has been tested and passed with success.
 
   # Credits :
  1. [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
-  - For helping me again with my nav bar and also alot of usefull js videos
+  - For helping me again with my nav bar and also a lot of useful js videos
 
  2. [CodingNepal](https://www.youtube.com/c/CodingNepal/featured)
-  - CodingNepal is my go to channel when ever i need help with Js.
+  - CodingNepal was my stepping stone to make this quiz project.
   
  3.  [Code Institute](https://codeinstitute.net/)
-  - Code Institute has a practical and direct teaching system that helped me get to this point, including inspiration for the layout of this project.
+  - Code Institute has a practical and direct teaching system that helped me get to this point.
 
   ## Special thanks 
-  I would like to thank everyone who helped me with this project .
+  I would like to thank everyone who helped me with this project.
 
 - My mentor.
-- All my friends,
-which helped me out with profile photos for the team section.
+- All my friends, helped me out with profile photos for the team section.
 - Jean my good French friend for all the support and advice.
 - Code Institute for giving the best support to develop this project.
