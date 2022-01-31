@@ -12,31 +12,34 @@
 
 <body>
     <!-- nav section -->
-    <nav class="navbar">
-        <div class="brand-title"><a href="index.html">The Amazing Quizaru</a></div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="help.html">How To</a></li>
-                <li><a href="credits.html">Credits </a></li>
-            </ul>
+    <section>
+        <nav class="navbar">
+            <div class="brand-title"><a href="index.html">The Amazing Quizaru</a></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="help.html">How To</a></li>
+                    <li><a href="credits.html">Credits </a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <!-- result section -->
+        <div class="result_box">
+            <div class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <div class="complete_text">Congratulations for finishing this quiz</div>
+            <div class="score"></div>
+            <div class="buttons">
+                <button class="exit" onclick="exitGame()">Exit</button>
+                <button class="replay" onclick="restartGame()">Replay</button>
+            </div>
         </div>
-    </nav>
-    <!-- result section -->
-    <div class="result_box">
-        <div class="icon"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-        <div class="complete_text">Congratulations for finishing this quiz</div>
-        <div class="score"></div>
-        <div class="buttons">
-            <button class="exit" onclick="exitGame()">Exit</button>
-            <button class="replay"onclick="restartGame()">Replay</button>
-        </div>
-    </div>
     </section>
     <!-- footer section -->
     <footer>
