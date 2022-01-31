@@ -2,7 +2,7 @@
 
 ## By Patrick Alexander Lucas Van Der Flier
 
-### [Check Skate World](https://vanderpatrick.github.io/The-Amazing-Quizaru/)
+### [Check The Amazing Quizaru](https://vanderpatrick.github.io/The-Amazing-Quizaru/)
 ### [Check my Repository](https://github.com/vanderpatrick/The-Amazing-Quizaru/)
 
 ![Insert image here]()
@@ -51,16 +51,34 @@ This is a HTML CSS and JS web site, my main consaern in the project was the logi
  - It was hard to fix the Js bugs in all HTML pages. But in the end no relevants errors nor bugs.
 
  # Test Validators :
-# here you have acces to all HTML validators from all 5 pages
+
+## Here you have acces to all HTML validators from all 5 pages:
  
  ## [HTML Validator - Index](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Findex.html)
- ## [HTML Validator]()
- ## [HTML Validator]()
- ## [HTML Validator]()
- ## [HTML Validator]()
+ ## [HTML Validator - Quiz_box](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fquiz_box.html#textarea)
+ ## [HTML Validator - Help](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fhelp.html#textarea)
+ ## [HTML Validator - Credits](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fcredits.html)
+ ## [HTML Validator - Result](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fcredits.html#textarea)
 
-All Html pages have been tested and passed with success.
+All Html pages have been tested and passed with success and irellevent warnings.
 
- ## [Jigsaw CSS Validator]()
+ ## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 The CSS file has been tested and passed with success.
+
+##[JavaScript Validator]()
+
+
+# Deployment :
+ ## This project was deployed to GitHub. Instructions on how to deploy bellow :
+  - In the GitHub repository go to settings.
+  ![image of the settings location](assets/images/settings.png)
+
+  - In the settings tab click the page button.
+  ![Image of the page's location](assets/images/pages.png)
+
+  - Change the none button to the main.
+  ![image of the "main" button location](/assets/images/branch.png)
+  
+  - Click save and then check your link URL.
+  ![image of the project URL link](assets/images/result.png)

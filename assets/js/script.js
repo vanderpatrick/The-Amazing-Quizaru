@@ -24,7 +24,7 @@ function nextQuestion() {
             window.location.href = 'result.html';
         }
 
-    };
+    }
 }
 // Funtion  to call questions and options in the quiz.
 function callGame(index) {
