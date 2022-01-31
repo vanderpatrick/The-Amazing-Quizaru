@@ -105,13 +105,13 @@ This is an HTML CSS and JS website, my main concern in the project was the logic
 All Html pages have been tested and passed with success and irrelevant warnings.
 
  ## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
- - For resposivines this project was tested in the desktop level, leptops, tablets(ipads), telefones, all screen sizes have shown responsiveness
+ - For responsiveness, this project was tested in the desktop level, laptops, tablets(iPad), telephones, all screen sizes have shown responsiveness
 
 The CSS file has been tested and passed with success.
 
 ## JavaScript Validator :
-- The code was tested inumerus times, and did'nt show any bugs in the final code.
-- the undefinebles variables are actually objects from an array.
+- The code was tested numerous times and didn't show any bugs in the final code.
+- the undefinable variables are objects from an array.
 ![JavaScript Validator](/assets/images/js_validator.png)
 
 
@@ -132,7 +132,7 @@ The CSS file has been tested and passed with success.
 ## How to fork :
   - In the repository that you want to fork, go to the right upper corner
   ![image of location from fork](/assets/images/how_to_fork.png)
-  - After "forking" wait while github copies the repository into your profile.
+  - After "forking" wait while GitHub copies the repository into your profile.
   
 ## Desktop Deployment :
   - In the repository click on code.
