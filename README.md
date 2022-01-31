@@ -3,7 +3,6 @@
 ## By Patrick Alexander Lucas Van Der Flier
 
 ### [Check The Amazing Quizaru](https://vanderpatrick.github.io/The-Amazing-Quizaru/)
-### [Check my Repository](https://github.com/vanderpatrick/The-Amazing-Quizaru/)
 
 ![Responsive image from the project](/assets/images/responsive.png)
 
@@ -53,19 +52,19 @@ The Features were designed to distinguish each area with ease so the user can ex
     - The Header act as a link to the home page.
     - as it shrinks the navigations links (Home, How to, Credits) turn into a burger-styled menu.
 
- ![navigation bar image](/assets/images/NAVBAR.png)
+ ![navigation bar image](/assets/images/navbar.png)
 
 - Landing page
     - The homepage consists of 3 interactable options for the player, he(she) can start the game, see the credits, or see instructions.
     - it is easy to look at and intuitive to chose what to do.
 
-![landing page image](/assets/images/homeScreen.png)
+![landing page image](/assets/images/home_screen.png)
 
 - Footer
     - Simple footer, not much to see, just enough social media links if the user wants to check my other work.
     - It's composed of three sections to quickly give info about the school and its goals.
 
-![info content image](/assets/images/FOOTER.png)
+![info content image](/assets/images/footer.png)
 
 - Quiz section
     - The quiz section gives the player 10 questions with 4 options.
@@ -74,14 +73,14 @@ The Features were designed to distinguish each area with ease so the user can ex
     - If wrong all wrong options turn to red and the correct one to green.
     - Then the next button shows to the user so he(she) can move forward.
 
-![feedback info image](/assets/images/quizOptions.png)
-![Quiz when wrong question is clicked](/assets/images/quiz-options.png)
+![feedback info image](/assets/images/quiz_options.png)
+![Quiz when wrong question is clicked](/assets/images/quiz_options.png)
 
 - Quiz result
     - The result section shows the number of correct answers from total questions.
     - the user has the option to restart the game or exit the game.
 
-![Footer image](/assets/images/quizResult.png)
+![Footer image](/assets/images/quiz_result.png)
 
 
 
@@ -106,14 +105,18 @@ This is an HTML CSS and JS website, my main concern in the project was the logic
 All Html pages have been tested and passed with success and irrelevant warnings.
 
  ## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+ - For resposivines this project was tested in the desktop level, leptops, tablets(ipads), telefones, all screen sizes have shown responsiveness
 
 The CSS file has been tested and passed with success.
 
-## [JavaScript Validator]()
+## JavaScript Validator :
+- The code was tested inumerus times, and did'nt show any bugs in the final code.
+- the undefinebles variables are actually objects from an array.
+![JavaScript Validator](/assets/images/js_validator.png)
 
 
 # Deployment :
- ## This project was deployed to GitHub. Instructions on how to deploy bellow :
+ ## Remote Deployment :
   - In the GitHub repository go to settings.
   ![image of the settings location](assets/images/settings.png)
 
@@ -124,7 +127,19 @@ The CSS file has been tested and passed with success.
   ![image of the "main" button location](/assets/images/branch.png)
   
   - Click save and then check your link URL.
-  ![image of the project URL link](assets/images/result.png)
+  ![image of the project URL link](/assets/images/result.png)
+
+## How to fork :
+  - In the repository that you want to fork, go to the right upper corner
+  ![image of location from fork](/assets/images/how_to_fork.png)
+  - After "forking" wait while github copies the repository into your profile.
+  
+## Desktop Deployment :
+  - In the repository click on code.
+  ![image of location from fork](/assets/images/desktop_deploy.png)
+  - Click at download zip file.
+  ![image of location from fork](/assets/images/desktop_deploy_part_1.png)
+  - When that is done, open with your chosen code program. 
 
   # External Features :
   ### In the links below, you will find all the icons and images used in the project. (except the team profile photos that were donated by my personal friends)
