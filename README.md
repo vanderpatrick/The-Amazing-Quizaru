@@ -61,20 +61,26 @@ The Features were designed to distinguish each area with ease so the user can ex
 
 ![landing page image](/assets/images/homeScreen.png)
 
-- School information
-    - The school info section was designed to be as direct and efficient as possible.
+- Footer
+    - Simple footer not much to see, just enough social media links if the user wants to check my other work.
     - It's composed of three sections to quickly give info about the school and its goals.
 
 ![info content image](/assets/images/FOOTER.png)
 
-- Feedback section
-    - This section gives the user experience from students that have enrolled with the school.
-    - This is a 2 column grid that highlights the best feedbacks.
+- Quiz section
+    - The quiz section gives the player 10 questions with 4 options.
+    - The user cant procede until one of the options is chosen.
+    - After the user clicks on a option if right it turns to green and the next button shows up.
+    - If wrong all wrong options turns to red and the correct one to green.
+    - Then the next button shows to the user so he(she) can move foward.
 
-![feedback info image](/assets/images/quiz-options.png)
+![feedback info image](/assets/images/quizOptions.png)
+![Quiz when wrong question is clicked](/assets/images/quiz-options.png)
 
-- Footer
-    - footer consists of social media links, where the user can quickly check the school's daily routine.
+- Quiz result
+    - The result section shows the amount of correct answers from total questions.
+    - the user has the option to restart the game or exit the game.
+    
 ![Footer image](/assets/images/quizResult.png)
 
 
