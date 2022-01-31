@@ -42,6 +42,43 @@ The Amazing Quizaro was developed with the porpuse of giving more information ab
     2. I want to make the site have a direct image about what you can do. 
     3. I want to give a good time with interessting questions about the skate universe that you probaly dont know.
 
+
+# Features :
+
+The Features were designed to distinguish each area with ease so the user can explore the site instinctively.
+
+- Navigation bar
+    - The navigation bar is featured on all HTML pages being responsive for big, medium and small devices.
+    - It consists of 3 clickable links that redirect in the same tab to the other pages. 
+    - The Header act as a link to the home page.
+    - as it shrinks the navigations links (Home, How to, Credits) turn into a burger-styled menu.
+
+ ![navigation bar image](/assets/images/NAVBAR.png)
+
+- Landing page
+    - The homepage consists 3 interactable options for the player, he(she) can start the game, see the credits, or see instructions.
+    - it is easy to look and intuitive to chose what to do.
+
+![landing page image](/assets/images/homeScreen.png)
+
+- School information
+    - The school info section was designed to be as direct and efficient as possible.
+    - It's composed of three sections to quickly give info about the school and its goals.
+
+![info content image](/assets/images/FOOTER.png)
+
+- Feedback section
+    - This section gives the user experience from students that have enrolled with the school.
+    - This is a 2 column grid that highlights the best feedbacks.
+
+![feedback info image](/assets/images/quiz-options.png)
+
+- Footer
+    - footer consists of social media links, where the user can quickly check the school's daily routine.
+![Footer image](/assets/images/quizResult.png)
+
+
+
 # Testing :
 
 This is a HTML CSS and JS web site, my main consaern in the project was the logic apllyed to the quiz.
@@ -66,7 +103,7 @@ All Html pages have been tested and passed with success and irellevent warnings.
 
 The CSS file has been tested and passed with success.
 
-##[JavaScript Validator]()
+## [JavaScript Validator]()
 
 
 # Deployment :
@@ -82,3 +119,30 @@ The CSS file has been tested and passed with success.
   
   - Click save and then check your link URL.
   ![image of the project URL link](assets/images/result.png)
+
+  # External Features :
+  ### In the links below, you will find all the icons and images used in the project. (except the team profile photos that were donated by my personal friends)
+
+- [Google Fonts](https://fonts.google.com/)
+  - Was used to select the font combination for this project.
+- [Font Awesome](https://fontawesome.com/)
+  - Was used to select the icons used in this project. 
+
+  # Credits :
+ 1. [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
+  - For helping me again with my nav bar and also alot of usefull js videos
+
+ 2. [CodingNepal](https://www.youtube.com/c/CodingNepal/featured)
+  - CodingNepal is my go to channel when ever i need help with Js.
+  
+ 3.  [Code Institute](https://codeinstitute.net/)
+  - Code Institute has a practical and direct teaching system that helped me get to this point, including inspiration for the layout of this project.
+
+  ## Special thanks 
+  I would like to thank everyone who helped me with this project .
+
+- My mentor.
+- All my friends,
+which helped me out with profile photos for the team section.
+- Jean my good French friend for all the support and advice.
+- Code Institute for giving the best support to develop this project.
