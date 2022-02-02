@@ -52,7 +52,7 @@ The Features were designed to distinguish each area with ease so the user can ex
     - The Header act as a link to the home page.
     - as it shrinks the navigations links (Home, How to, Credits) turn into a burger-styled menu.
 
- ![navigation bar image](/assets/images/navbar.png)
+ ![navigation bar image](/assets/images/nav_bar.png)
 
 - Landing page
     - The homepage consists of 3 interactable options for the player, he(she) can start the game, see the credits, or see instructions.
