@@ -110,8 +110,9 @@ All Html pages have been tested and passed with success with irrelevant warnings
 The CSS file has been tested and passed with success.
 
 ## JavaScript Validator :
-- The code was tested numerous times and didn't show any bugs in the final code.
-- the undefinable variables are objects from an array.
+- The code was tested numerous times and didn't show any major bugs in the final code.
+- The undefinable variables are objects from an array.
+- Since the game is in an different HTML the function "runGame" cannot be called.
 ![JavaScript Validator](/assets/images/js_validator.png)
 
 
