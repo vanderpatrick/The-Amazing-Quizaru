@@ -115,6 +115,15 @@ The CSS file has been tested and passed with success.
 - Since the game is in an different HTML the function "runGame" cannot be called.
 ![JavaScript Validator](/assets/images/js_validator.png)
 
+## Bugs
+- The main bug that I had at the super frustrating beginning was calling the function, somehow even when the function was done it wasn't called, by simply calling the function at the end of the script fixed my problem.
+- Since the game is in a different HTML the function "runGame" cannot be called in any other HTML file besides the game.
+
+## LigthHouse
+- Unfortunately, I saw it too late that existed the light house function at dev tools, which would have helped me choose a better combination of colors.
+
+![JavaScript Validator](/assets/images/light_house.png)
+
 
 # Deployment :
  ## Remote Deployment :
