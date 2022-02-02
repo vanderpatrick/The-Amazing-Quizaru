@@ -161,7 +161,7 @@ The CSS file has been tested and passed with success.
 
   # Credits :
  1. [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
-  - For helping me again with my nav bar and also with a lot of useful js videos.
+  - For helping me again with my nav bar.
 
  2. [CodingNepal](https://www.youtube.com/c/CodingNepal/featured)
   - CodingNepal was my stepping stone to make this quiz project.
