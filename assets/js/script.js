@@ -1,4 +1,4 @@
-//all loose variables
+//all loose variables.
 const toggleButton = document.getElementsByClassName('toggle-button')[0];
 const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 const option_list = document.querySelector('.options');
@@ -11,7 +11,7 @@ let userScore = 0;
 toggleButton.addEventListener("click", () => {
     navbarLinks.classList.toggle('active');
 });
-//funtion to call Next question
+//funtion to call Next question.
 
 function nextQuestion() {
     next_btn.onclick = () => {
@@ -26,7 +26,7 @@ function nextQuestion() {
 
     }
 }
-// Funtion  to call questions and options in the quiz.
+//Funtion  to call questions and options in the quiz.
 function callGame(index) {
     const quest_text = document.querySelector('.question');
     const option_text = document.querySelector('.options');
@@ -44,7 +44,7 @@ function callGame(index) {
     }
 
 }
-// Funtion to call Question counter
+//Funtion to call Question counter.
 
 function questionCounter(index) {
     const question_counter = document.querySelector('.total_que');
@@ -52,7 +52,7 @@ function questionCounter(index) {
     question_counter.innerHTML = question_counter_content;
 }
 
-// Funtion to call right awnser
+//Funtion to call right awnser.
 function optionSelected(answer) {
     let questionAnswer = answer.textContent;
     let correctAnswer = questions[que_count].answer;
@@ -64,7 +64,7 @@ function optionSelected(answer) {
     } else {
         answer.classList.add('incorrect');
 
-        //shows correct answer if incorrectly selected
+        //shows correct answer if incorrectly selected.
         for (let i = 0; i < allOptions; i++) {
             if (option_list.children[i].textContent == correctAnswer) {
                 option_list.children[i].setAttribute('class', 'option correct');
@@ -73,13 +73,13 @@ function optionSelected(answer) {
             }
         }
     }
-    // When option is selected disable other ones 
+    //When option is selected disable other ones.
     for (let i = 0; i < allOptions; i++) {
         option_list.children[i].classList.add('remove');
     }
     next_btn.style.display = 'block';
 }
-// Function to count answers
+//Function to count answers.
 function showResult() {
     const scoreText = document.querySelector('.score');
     let userScore = sessionStorage.getItem('userScore');
@@ -91,7 +91,7 @@ function showResult() {
     }
 }
 
-//Functions to start game, help menu,credits menu,exit and restart
+//Functions to start game, help menu,credits menu,exit and restart.
 function quizStart(){
     window.location.href = 'quiz_box.html';
 }

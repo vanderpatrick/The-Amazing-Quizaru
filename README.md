@@ -11,13 +11,13 @@
 ### The Amazing Quizaru was developed by me as my second Full Stack Web Development project with Code Institute.
 
 # Reason :
-The Amazing Quizaro was developed to give more information about the skate universe funny and interactively. By playing this quiz you gonna learn some useful information about some skate legends and also some hidden rules to make your skateboarding experience much better.
+The Amazing Quizaro was developed to give more information about the skate universe in an funny and interactively way. By playing this quiz you gonna learn some useful information about some skate legends and also some hidden rules to make your skateboarding experience much better.
 
 # The user Experience (UX)
 
 ##  Audience : 
 
-- People who to learn more about skating.
+- People who want to learn more about skating.
 - Skaters that want to test their knowledge about skate facts.
 - skaters who wish to spend some time in a fast and funny game.
 
@@ -33,13 +33,13 @@ The Amazing Quizaro was developed to give more information about the skate unive
 
     1. I would want to re-test my knowledge.
     2. I would want all answers correct.
-    3. I would want to who made the game.
+    3. I would want to know who made the game.
 
 - As a developer    
     
-    1. I want to make the interactive.
-    2. I want to make the site have a direct image of what you can do. 
-    3. I want to give a good time with interesting questions about the skate universe that you probably don't know.
+    1. I want to make it interactive.
+    2. I want the site to have an direct image of what you can do. 
+    3. I want to give a good time with interesting questions about the skate universe that you probably didn't knew.
 
 
 # Features :
@@ -62,7 +62,7 @@ The Features were designed to distinguish each area with ease so the user can ex
 
 - Footer
     - Simple footer, not much to see, just enough social media links if the user wants to check my other work.
-    - It's composed of three sections to quickly give info about the school and its goals.
+    
 
 ![info content image](/assets/images/footer.png)
 
@@ -90,7 +90,7 @@ This is an HTML CSS and JS website, my main concern in the project was the logic
 
  - The project was built with a desktop approach Because it was easier for me to create the content on the page.
 
- - It was hard to fix the Js bugs in all HTML pages. But in the end no relevant errors or bugs.
+ - It was hard to fix the Js bugs in all HTML pages. But in the end it passed all tests.
 
  # Test Validators :
 
@@ -102,7 +102,7 @@ This is an HTML CSS and JS website, my main concern in the project was the logic
  ## [HTML Validator - Credits](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fcredits.html)
  ## [HTML Validator - Result](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2Fcredits.html#textarea)
 
-All Html pages have been tested and passed with success and irrelevant warnings.
+All Html pages have been tested and passed with success with irrelevant warnings.
 
  ## [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvanderpatrick.github.io%2FThe-Amazing-Quizaru%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
  - For responsiveness, this project was tested in the desktop level, laptops, tablets(iPad), telephones, all screen sizes have shown responsiveness
@@ -130,7 +130,7 @@ The CSS file has been tested and passed with success.
   ![image of the project URL link](/assets/images/result.png)
 
 ## How to fork :
-  - In the repository that you want to fork, go to the right upper corner
+  - In the repository that you want to fork, go to the right upper corner and click fork.
   ![image of location from fork](/assets/images/how_to_fork.png)
   - After "forking" wait while GitHub copies the repository into your profile.
   
@@ -142,7 +142,7 @@ The CSS file has been tested and passed with success.
   - When that is done, open with your chosen code program. 
 
   # External Features :
-  ### In the links below, you will find all the icons and images used in the project. (except the team profile photos that were donated by my personal friends)
+  ### In the links below, you will find all the icons and fonts used in the project. 
 
 - [Google Fonts](https://fonts.google.com/)
   - Was used to select the font combination for this project.
@@ -151,18 +151,17 @@ The CSS file has been tested and passed with success.
 
   # Credits :
  1. [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
-  - For helping me again with my nav bar and also a lot of useful js videos
+  - For helping me again with my nav bar and also with a lot of useful js videos.
 
  2. [CodingNepal](https://www.youtube.com/c/CodingNepal/featured)
   - CodingNepal was my stepping stone to make this quiz project.
   
  3.  [Code Institute](https://codeinstitute.net/)
-  - Code Institute has a practical and direct teaching system that helped me get to this point.
+  - Code Institute for all the suporte and care with me and my projects.
 
   ## Special thanks 
   I would like to thank everyone who helped me with this project.
 
 - My mentor.
-- All my friends, helped me out with profile photos for the team section.
 - Jean my good French friend for all the support and advice.
 - Code Institute for giving the best support to develop this project.
