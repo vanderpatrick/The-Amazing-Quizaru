@@ -368,11 +368,16 @@ footer {
     .home_screen,
     .help_box,
     .credits_box,
-    .quiz_box {
+    .quiz_box{
         width: 90%;
         margin: 130px auto;
         font-size: 1.1rem;
     }
+    .result_box{
+        margin: 150px auto;
+    }
+
+    
 
     .brand-title a {
         font-size: 1.1rem;
@@ -425,6 +430,9 @@ footer {
         margin: 152px auto;
         font-size: 1.4rem;
     }
+    .result_box {
+        margin: 235px auto;
+    }
     
     .brand-title {
         font-size: 0.2rem;
@@ -448,6 +456,9 @@ footer {
         margin: 230px auto;
         font-size: 1.5rem;
     }
+    .result_box {
+        margin: 300px auto;
+    }
     a {
         font-size: 1.4rem;
     }
@@ -463,6 +474,9 @@ footer {
         margin: 340px auto;
         font-size: 1.5rem;
     }
+    .result_box {
+        margin: 440px auto;
+    }
 
     footer {
         height: 120px;
@@ -473,10 +487,9 @@ footer {
 
     .home_screen,
     .quiz_box,
-    .result_box,
     .help_box,
     .credits_box {
-        margin: 100px auto;
+        margin: 110px auto;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
             0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 60%;
@@ -484,5 +497,6 @@ footer {
         border-radius: 10px;
         font-size: 1.5em;
     }
+
     
 }
